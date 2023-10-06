@@ -1,0 +1,330 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Code hub</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&family=Lumanosimo&family=Preahvihear&family=Roboto:ital@1&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/themes/prism.min.css" />
+  <style>
+     body {
+  background-color: #b0c7db; /* Replace #ffffff with the desired background color */
+  font-weight: none;
+  font-family: Preahvihear;
+  
+     }
+    
+    .pad {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+    #bg{
+      background-color: #f5f5ff;
+      /* color: auto; */
+      padding: auto;
+    }
+    #table {
+      font-family:none;
+    }
+    mark{
+      color: purple;
+      background-color: #bdbdff;
+    }
+    footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #ffc107;
+}
+
+footer ul.list-unstyled {
+    padding: 0;
+    list-style: none;
+}
+
+footer ul.list-unstyled li {
+    margin-bottom: 8px;
+}
+
+footer ul.list-inline {
+    padding: 0;
+    list-style: none;
+}
+
+footer ul.list-inline li {
+    margin-right: 15px;
+    }
+    
+  </style>
+  
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+    <a class="navbar-brand" href="#" class="pad">Html</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="https://html-css-js-10.adarshchaudhar3.repl.co">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    HTML (current)
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="https://html-introduction.adarshchaudhar3.repl.co">introduction to HTML</a></li>
+                    <li><a class="dropdown-item" href="https://html-editor-introduction.adarshchaudhar3.repl.co">HTML Editor</a></li>
+                    <li><class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Submenu 3</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CSS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">JAVASCRIPT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </div>
+    </nav>
+  <br />
+  <span class="body">
+  <div class="pad">
+     <div>
+        <h1>
+    HTML Introduction 
+        </h1>
+    <hr />
+    <p>
+       HTML is the standard markup language for creating Web pages.
+    </p>
+    <hr />
+    <h2>
+       What is HTML?
+    </h2>
+    <p>
+       <ul>
+         
+          <li>HTML stands for Hyper Text Markup Language</li>
+         <li>HTML is the standard markup language for creating Web pages</li>
+         <li>HTML describes the structure of a Web page</li>
+         <li>HTML consists of a series of elements</li>
+         <li>HTML elements tell the browser how to display the content</li>
+         <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+         
+      </ul>
+       
+    </p>
+    <br />
+     </div>
+     <div>
+        <h2>
+         A Simple HTML Document
+      </h2>
+      <hr />
+       <pre class="language-html" id="bg">
+         <code>
+    &lt;!DOCTYPE html&gt;
+    &lt;html&gt;
+    &lt;head&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+
+    &lt;h1&gt;My First Heading&lt;/h1&gt;
+    &lt;p&gt;My first paragraph.&lt;/p&gt;
+
+    &lt;/body&gt;
+    &lt;/html&gt;
+         </code>
+       </pre>
+       <br />
+       <a href="https://html-css-js-8.adarshchaudhar3.repl.co" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Try it yourself</a>
+       <br />
+       <hr />
+     </div>
+     <div>
+     <h2>
+       Example Explained
+     </h2>
+  <ul>
+    
+     <li>The  &lt;!DOCTYPE html&gt; declaration defines that this document is an HTML5 document</li>
+    <li>The &lt;html&gt; & element is the root element of an HTML page</li>
+    <li>The &lt;title&gt; element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</li>
+    <li>The &lt;body&gt; element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</li>
+    <li>The &lt;h1&gt; element defines a large heading</li>
+    <li>The &lt;p&gt; element defines a paragraph</li>
+    
+  </ul>
+  <hr />
+       <br />
+     <h2>
+       What is an HTML Element?
+     </h2>
+    <p>
+       An HTML element is defined by a start tag, some content, and an end tag:
+    </p>
+        
+    <strong>
+       &lt;tagname&gt; Content goes here... &lt;/tagname&gt;
+    </strong>
+       <br />
+       <br />
+    <p>
+       The HTML <strong>element</strong> is everything from the start tag to the end tag:
+    </p>
+    <strong>
+      &lt;h1&gt;My First Heading&lt;/h1&gt;
+    </strong>
+    <strong>
+      &lt;p&gt;My first paragraph.&lt;/p&gt;
+    </strong>
+  <br /><br />
+  <table border="1" cellspacing="0" id="table">
+   <tr>
+      <th>Start tag</th>
+      <th>Element content</th>
+      <th>End tag</th>
+   </tr>
+   <tr>
+      <td>&lt;h1&gt;</td>
+      <td>My First Heading</td>
+      <td>&lt;/h1&gt;</td>
+   </tr>
+   <tr>
+      <td>&lt;p&gt;</td>
+      <td>My first paragraph.</td>
+      <td>&lt;/p&gt;</td>
+   </tr>
+   <tr>
+      <td>&lt;br&gt;</td>
+      <td>none</td>
+      <td>none</td>
+   </tr>
+  </table>
+  
+  <br />
+     </div>
+    <div>
+       <mark>Note: Some HTML elements have no content (like the &lt;br&gt; element). These elements are called empty elements. Empty elements do not have an end tag!</mark>
+      <br />
+      <br />
+    </div>
+    <div>
+       <h2>
+       Web Browsers
+   </h2>
+    <p>
+       The purpose of a web browser (Chrome, Edge, Firefox, Safari) is to read HTML documents and display them correctly.
+    </p>
+    <p>
+       Below is a visualization of an HTML page structure:
+    </p>
+      <img src="1664274692711.jpg" height="200px" width="300px" />
+      <hr />
+    </div>
+    <div>
+       <h2>
+      HTML Page Structure
+  </h2>
+   <p>
+      Below is a visualization of an HTML page structure:
+   </p>
+   <img src="IMG_20230723_192631.png" height="470px" width="350px"/>
+      <br />
+      <br />
+    <mark>
+      <strong>Note</strong>: The content inside the &lt;body&gt; section will be displayed in a browser. The content inside the &lt;title&gt; element will be shown in the browser's title bar or in the page's tab.
+    </mark>
+  <br />
+  <br />
+  <br />
+    </div>
+    <div>
+       <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Next Page</a>
+  <br />
+  <br />
+    </div>
+    <div>
+       <strong>
+         conclusion:
+       </strong>
+      <p>
+         In short, HTML is the foundation of web pages, defining their structure using tags. You've learned about elements like headings and paragraphs, as well as how browsers interpret your code. Remember, &lt;!DOCTYPE html&gt; signifies HTML5, &lt;html&gt; is the root, and &lt;body&gt;# holds visible content. Consider exploring CSS and JavaScript for styling and interactivity. Keep coding and enjoy your web development journey!
+      </p>
+      
+      
+    </div>
+    
+  </span>
+  </div>
+  <div>
+     <footer class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Learn Web Designing</h4>
+                <ul class="list-unstyled">
+                    <li><a href="#">HTML Course</a></li>
+                    <li><a href="#">CSS Course</a></li>
+                    <li><a href="#">JavaScript Course</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Connect With Us</h4>
+                <p>Follow us on social media for updates and news</p>
+  <p>
+     Facebook: Adarsh chaudhary 
+  </p>
+  
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="#"><i class="bi bi-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="bi bi-instagram"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Contact Us</h4>
+                <p>Email: adarsh44532@gmail.com</p>
+                <p>Phone: +977 981******0</p>
+            </div>
+        </div>
+    </div>
+     </footer>
+  </div>
+  
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.28.0/components/prism-html.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+  
+</body>
+
+</html>
